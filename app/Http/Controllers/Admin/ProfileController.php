@@ -27,4 +27,6 @@ public function add()
     {
         return redirect('admin/profile/edit');
 }
+
+
 }
