@@ -38,10 +38,8 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                       <label class="col-md-2"自己紹介欄></label>
+                       <label class="col-md-2">自己紹介欄</label>
                        <div class="col-md-10">
-                          
-                       </div>
                        　<textarea class="form-control" name="body" rows="20">{{ old('body') }}</textarea>
                     </div>
                     {{ csrf_field() }}
